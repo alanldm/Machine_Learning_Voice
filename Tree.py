@@ -29,15 +29,6 @@ def algoritmo_arvore(variaveis):
     st.markdown("### Previsão e métricas do algoritmo: ")
     st.text("Previsão para os valores fornecidos: " + str(previsao))
 
-
-    dot_data = tree.export_graphviz(clf, out_file=None, 
-                            feature_names=df_data.keys(),  
-                            class_names=['male','female'],  
-                            filled=True, rounded=True,  
-                            special_characters=True)  
-    st.graphviz_chart(dot_data)
-
-
     X_train, X_test, y_train, y_test = train_test_split(df_data, 
                                                         df_target,
                                                         random_state=0)

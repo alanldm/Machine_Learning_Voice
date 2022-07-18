@@ -62,3 +62,4 @@ def algoritmo_knn(variaveis, vizinhos):
     st.text("Acurácia: " + str(round(accuracy_score(y_test, y_model),2)))
     st.text("Matriz de confusão: ")
     st.pyplot(plt.show())
+    

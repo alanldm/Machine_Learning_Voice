@@ -7,8 +7,6 @@ import Tree
 st.title('Unidade 3 - Machine Learning')
 
 st.markdown('* Alan Lima de Medeiros')
-st.markdown('* Enzo Hêndrio Gomes Araújo')
-st.markdown('* Kalynne Gabriele da Silva Maciel')
 
 option = st.sidebar.selectbox('Escolha a técnica de Aprendizagem de Máquina: ', ('KNN', 'Árvore de Decisão'))
 
